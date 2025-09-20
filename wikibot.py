@@ -4,7 +4,7 @@ import click
 @click.command()
 @click.option('--name', help='Web page we want to scrape')
 @click.option('--length', help='length of the output')
-def cli(name, length):
+def cli(name='Microsoft', length=1):
     result = scrape(name, length=length)
     click.echo(click.style(f"{result}", bg="green", fg="white"))
 
