@@ -1,8 +1,5 @@
 my_list = ["apple", "cherry", "lemon"]
-my_dict = {
-    "drink": "coffee",
-    "milk": "whole"
-}
+my_dict = {"drink": "coffee", "milk": "whole"}
 
 for item in my_list:
     print(f"Eat {item}")
